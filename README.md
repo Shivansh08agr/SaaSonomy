@@ -1,6 +1,6 @@
 # 🚀 Startup Pitch Platform
 
-A **Next.js 15** based web app where entrepreneurs can **submit startup ideas**, **browse other pitches**, and gain **visibility through virtual pitch competitions** — all within a clean and minimal user experience.
+A **Next.js 15** based website where entrepreneurs can **submit startup ideas**, **browse other pitches**, and gain **visibility through virtual pitch competitions** — all within a clean and minimal user experience.
 
 > Built with React 19, TypeScript, and Sanity.io for seamless content management and dynamic rendering.
 
