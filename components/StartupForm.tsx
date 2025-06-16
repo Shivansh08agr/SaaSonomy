@@ -26,6 +26,7 @@ const StartupForm = () => {
         category: formData.get("category") as string,
         link: formData.get("link") as string,
         pitch,
+        views: 0,
       };
       await formSchema.parseAsync(formValues);
 
@@ -37,7 +38,7 @@ const StartupForm = () => {
           description: "Your startup pitch has been created successfully",
           variant: "default",
         });
-        router.push(`/startup/${result.id}`);
+        router.push(`/startup/${result._id}`);
       }
       return result;
     } catch (error) {
